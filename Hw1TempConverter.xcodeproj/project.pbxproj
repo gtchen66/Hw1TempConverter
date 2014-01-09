@@ -19,6 +19,8 @@
 		B5AA4F5F187EA996009813C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA4F47187EA996009813C4 /* UIKit.framework */; };
 		B5AA4F67187EA996009813C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5AA4F65187EA996009813C4 /* InfoPlist.strings */; };
 		B5AA4F69187EA996009813C4 /* Hw1TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4F68187EA996009813C4 /* Hw1TempConverterTests.m */; };
+		B5AA4F75187EA9E9009813C4 /* TempertureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA4F73187EA9E9009813C4 /* TempertureViewController.m */; };
+		B5AA4F76187EA9E9009813C4 /* TempertureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AA4F74187EA9E9009813C4 /* TempertureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B5AA4F64187EA996009813C4 /* Hw1TempConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hw1TempConverterTests-Info.plist"; sourceTree = "<group>"; };
 		B5AA4F66187EA996009813C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5AA4F68187EA996009813C4 /* Hw1TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hw1TempConverterTests.m; sourceTree = "<group>"; };
+		B5AA4F72187EA9E9009813C4 /* TempertureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempertureViewController.h; sourceTree = "<group>"; };
+		B5AA4F73187EA9E9009813C4 /* TempertureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempertureViewController.m; sourceTree = "<group>"; };
+		B5AA4F74187EA9E9009813C4 /* TempertureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempertureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				B5AA4F53187EA996009813C4 /* AppDelegate.m */,
 				B5AA4F55187EA996009813C4 /* Images.xcassets */,
 				B5AA4F4A187EA996009813C4 /* Supporting Files */,
+				B5AA4F72187EA9E9009813C4 /* TempertureViewController.h */,
+				B5AA4F73187EA9E9009813C4 /* TempertureViewController.m */,
+				B5AA4F74187EA9E9009813C4 /* TempertureViewController.xib */,
 			);
 			path = Hw1TempConverter;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				B5AA4F4E187EA996009813C4 /* InfoPlist.strings in Resources */,
 				B5AA4F56187EA996009813C4 /* Images.xcassets in Resources */,
+				B5AA4F76187EA9E9009813C4 /* TempertureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AA4F75187EA9E9009813C4 /* TempertureViewController.m in Sources */,
 				B5AA4F54187EA996009813C4 /* AppDelegate.m in Sources */,
 				B5AA4F50187EA996009813C4 /* main.m in Sources */,
 			);
@@ -362,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hw1TempConverter/Hw1TempConverter-Prefix.pch";
 				INFOPLIST_FILE = "Hw1TempConverter/Hw1TempConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hw1TempConverter/Hw1TempConverter-Prefix.pch";
 				INFOPLIST_FILE = "Hw1TempConverter/Hw1TempConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
